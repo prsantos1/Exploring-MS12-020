@@ -22,6 +22,24 @@ types of network topologies and multiple LAN protocols."***
 
 ![](https://ifconfig.dk/wp-content/uploads/2014/02/RDPkill1.png)
 
+# Metasploit 
+
+```console
+msf > use auxiliary/scanner/rdp/ms12_020_check
+
+msf auxiliary(ms12_020_check) > show actions
+
+    ...actions...
+    
+msf auxiliary(ms12_020_check) > set ACTION < action-name >
+
+msf auxiliary(ms12_020_check) > show options
+
+    ...show and set options...
+    
+msf auxiliary(ms12_020_check) > run
+```
+
 # Instalações
 Para entender como criar e instalar uma VM com o SO - Win 7, recomendo acessar o seguinte link: [https://www.comoinstalar.com.br/virtualizacao/como-instalar-o-windows-7/](https://www.comoinstalar.com.br/virtualizacao/como-instalar-o-windows-7/) 
 
