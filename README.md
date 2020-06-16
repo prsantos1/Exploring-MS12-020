@@ -1,4 +1,4 @@
-# Exploring-MS12-020
+# Exploring-MS12-020 / CVE-2012-0002
 
 ***"The Microsoft Remote Desktop Protocol (RDP) provides remote display
 and input capabilities over network connections for Windows-based
@@ -19,6 +19,17 @@ types of network topologies and multiple LAN protocols."***
    - A code-exec ocorre durante a desconexão usuário. A capacidade de
    exploração depende da possibilidade de controlar o ESI ou o conteúdo
    apontado por ele.
+
+![](https://ifconfig.dk/wp-content/uploads/2014/02/RDPkill1.png)
+
+# Instalações
+Para entender como criar e instalar uma VM com o SO - Win 7, recomendo acessar o seguinte link: [https://www.comoinstalar.com.br/virtualizacao/como-instalar-o-windows-7/](https://www.comoinstalar.com.br/virtualizacao/como-instalar-o-windows-7/) 
+
+E para fazer a instalação do VirtualBox :
+[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) 
+
+
+# Código
 
 O buffer que deve ser adicionado é o seguinte:
 
@@ -118,3 +129,4 @@ buf+="\x03\x00\x00\x0b" # TPKT, Version 3, Lenght 12
 buf+="\x06\xd0\x00\x00\x12\x34\x00"  #ITU-T Rec X.224
 
 ```
+Por fim, a instalação da atualização de segurança KB2621440 através da atualização do Windows fecha esta vulnerabilidade. Com isso, espero que prove meu ponto de sempre manter seu sistema atualizado.
