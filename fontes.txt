@@ -1,0 +1,4 @@
+http://msdn.microsoft.com/en-us/library/cc240836%28v=prot.10%29.aspx
+https://pastebin.com/G99npvDy
+https://ifconfig.dk/ms12-020/#:~:text=In%20short%2C%20the%20vulnerability%20enables,Level%20Authentication%20(NLA)%20disabled.
+https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/dos/windows/rdp/ms12_020_maxchannelids.rb
