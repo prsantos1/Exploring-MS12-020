@@ -119,4 +119,4 @@ pkt = ''+
       "\x02\xF0\x80"     +  # X.224
       "\x21\x80"            # T.125
 ```
-Por fim, a instalação da atualização de segurança KB2621440 através da atualização do Windows fecha esta vulnerabilidade. Com isso, espero que prove meu ponto de sempre manter seu sistema atualizado.
+Por fim, a instalação da atualização de segurança KB2621440 através da atualização do Windows fecha está vulnerabilidade. Com isso, espero que prove meu ponto de sempre manter seu sistema atualizado.
